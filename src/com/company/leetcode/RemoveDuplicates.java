@@ -1,4 +1,4 @@
-package com.company;
+package com.company.leetcode;
 
 public class RemoveDuplicates {
     public static int remove(int[] nums){

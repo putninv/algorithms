@@ -1,6 +1,6 @@
-package com.company;
+package com.company.leetcode;
 
-import com.company.model.ListNode;
+import com.company.leetcode.model.ListNode;
 
 public class AddTwoSum {
 

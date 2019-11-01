@@ -1,7 +1,7 @@
-package com.company.main;
+package com.company.leetcode.main;
 
-import com.company.RemoveNthElement;
-import com.company.model.ListNode;
+import com.company.leetcode.PalindromeNumber;
+import com.company.leetcode.model.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,11 +56,13 @@ public class Main {
 
 //        ClosestSum.closestSum(new int[]{1,2,3,4,8,16,32,64,128}, 82);
 
-                ListNode node1 = new ListNode(1);
-                ListNode node2 = new ListNode(2);
-                node1.next = node2;
+//                ListNode node1 = new ListNode(1);
+//                ListNode node2 = new ListNode(2);
+//                node1.next = node2;
+//
+//        System.out.println(stringifyListNode(RemoveNthElement.removeNthFromEnd(node1, 2)));
 
-        System.out.println(stringifyListNode(RemoveNthElement.removeNthFromEnd(node1, 2)));
+        System.out.println(PalindromeNumber.isPalindrome(1221));
     }
 
     private static String stringifyList(List<Integer> list){

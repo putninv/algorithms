@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.leetcode.model;
 
 public class ListNode {
    public int val;
