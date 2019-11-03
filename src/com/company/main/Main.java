@@ -1,7 +1,9 @@
-package com.company.leetcode.main;
+package com.company.main;
 
 import com.company.leetcode.PalindromeNumber;
 import com.company.leetcode.model.ListNode;
+import com.company.leetcode.model.ValidPalindrome;
+import com.company.other.PancakeSort;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,7 +64,21 @@ public class Main {
 //
 //        System.out.println(stringifyListNode(RemoveNthElement.removeNthFromEnd(node1, 2)));
 
-        System.out.println(PalindromeNumber.isPalindrome(1221));
+//        System.out.println(PalindromeNumber.isPalindrome(1221));
+
+
+//        System.out.println(stringifyArray(PancakeSort.flip(new int[]{1,2,3,4,5,6,7,8,9}, 4)));
+
+        System.out.println(ValidPalindrome.isValid("race a car"));
+    }
+
+    private static String stringifyArray(int[] arr){
+        StringBuilder builder = new StringBuilder();
+        for(int i = 0; i < arr.length; i ++){
+            builder.append(arr[i]);
+            builder.append(", ");
+        }
+        return builder.toString();
     }
 
     private static String stringifyList(List<Integer> list){
