@@ -1,4 +1,4 @@
-package com.company.leetcode.model;
+package com.company.leetcode;
 
 public class ValidPalindrome {
 

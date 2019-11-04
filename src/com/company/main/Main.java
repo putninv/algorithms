@@ -1,9 +1,7 @@
 package com.company.main;
 
-import com.company.leetcode.PalindromeNumber;
 import com.company.leetcode.model.ListNode;
-import com.company.leetcode.model.ValidPalindrome;
-import com.company.other.PancakeSort;
+import com.company.leetcode.ValidPalindrome;
 
 import java.util.ArrayList;
 import java.util.List;
