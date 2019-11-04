@@ -1,5 +1,6 @@
 package com.company.main;
 
+import com.company.leetcode.ReverseWordsInAString;
 import com.company.leetcode.model.ListNode;
 import com.company.leetcode.ValidPalindrome;
 
@@ -67,7 +68,9 @@ public class Main {
 
 //        System.out.println(stringifyArray(PancakeSort.flip(new int[]{1,2,3,4,5,6,7,8,9}, 4)));
 
-        System.out.println(ValidPalindrome.isValid("race a car"));
+//        System.out.println(ValidPalindrome.isValid("race a car"));
+
+        System.out.println(ReverseWordsInAString.reverse("  Hello     my beautiful  world   "));
     }
 
     private static String stringifyArray(int[] arr){
