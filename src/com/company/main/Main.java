@@ -1,6 +1,7 @@
 package com.company.main;
 
 import com.company.leetcode.ReverseWordsInAString;
+import com.company.leetcode.ZigZagConversion;
 import com.company.leetcode.model.ListNode;
 import com.company.leetcode.ValidPalindrome;
 
@@ -70,7 +71,9 @@ public class Main {
 
 //        System.out.println(ValidPalindrome.isValid("race a car"));
 
-        System.out.println(ReverseWordsInAString.reverse("  Hello     my beautiful  world   "));
+//        System.out.println(ReverseWordsInAString.reverse("  Hello     my beautiful  world   "));
+
+        System.out.println(ZigZagConversion.convert("PAYPALISHIRING", 3));
     }
 
     private static String stringifyArray(int[] arr){

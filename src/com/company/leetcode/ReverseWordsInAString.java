@@ -5,6 +5,9 @@ import java.util.List;
 
 public class ReverseWordsInAString {
 
+    /**
+     * O(2n) complexity.
+     */
     public static String reverse(String s) {
         s = s.trim();
         String[] words = s.split("\\s+");
@@ -26,6 +29,36 @@ public class ReverseWordsInAString {
         return builder.toString();
     }
 
+    /**
+     * O(n) complexity.
+     */
+    public static String reverseFast(String s) {
+        if (s == null || s.length() == 0) {
+            return s;
+        }
+        String[] words = s.split(" ");
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = words.length - 1; i >=0; i--) {
+            String w = words[i];
+            if (w.equals("")) {
+                continue;
+            }
+            sb.append(w);
+            sb.append(" ");
+        }
+
+        if (sb.length() == 0) {
+            return sb.toString();
+        }
+
+        return sb.substring(0, sb.length() -1).toString();
+    }
+
+    /**
+     * O(n) complexity.
+     */
     public static String reverse2(String s) {
         if(s == null) {
             return s;
