@@ -1,10 +1,8 @@
 package com.company.main;
 
-import com.company.leetcode.AlphabetBoardPath;
-import com.company.leetcode.ReverseWordsInAString;
-import com.company.leetcode.ZigZagConversion;
+import com.company.leetcode.*;
 import com.company.leetcode.model.ListNode;
-import com.company.leetcode.ValidPalindrome;
+import com.company.leetcode.model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,8 +73,18 @@ public class Main {
 //        System.out.println(ReverseWordsInAString.reverse("  Hello     my beautiful  world   "));
 
 //        System.out.println(ZigZagConversion.convert("PAYPALISHIRING", 3));
-          System.out.println(AlphabetBoardPath.alphabetBoardPath("zxz"));
+//          System.out.println(AlphabetBoardPath.alphabetBoardPath("zxz"));
 
+//        System.out.println(AlphabetBoardPath.alphabetBoardPath("zxz"));
+
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(4);
+        root.right.left = new TreeNode(4);
+        root.right.right = new TreeNode(3);
+        System.out.println(SymmetricTree.isSymmetric(root));
     }
 
     private static String stringifyArray(int[] arr){
