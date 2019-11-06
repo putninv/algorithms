@@ -1,5 +1,6 @@
 package com.company.main;
 
+import com.company.leetcode.AlphabetBoardPath;
 import com.company.leetcode.ReverseWordsInAString;
 import com.company.leetcode.ZigZagConversion;
 import com.company.leetcode.model.ListNode;
@@ -73,7 +74,9 @@ public class Main {
 
 //        System.out.println(ReverseWordsInAString.reverse("  Hello     my beautiful  world   "));
 
-        System.out.println(ZigZagConversion.convert("PAYPALISHIRING", 3));
+//        System.out.println(ZigZagConversion.convert("PAYPALISHIRING", 3));
+          System.out.println(AlphabetBoardPath.alphabetBoardPath("zxz"));
+
     }
 
     private static String stringifyArray(int[] arr){
