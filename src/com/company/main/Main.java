@@ -1,8 +1,6 @@
 package com.company.main;
 
-import com.company.leetcode.*;
 import com.company.leetcode.model.ListNode;
-import com.company.leetcode.model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,14 +75,16 @@ public class Main {
 
 //        System.out.println(AlphabetBoardPath.alphabetBoardPath("zxz"));
 
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.right.left = new TreeNode(4);
-        root.right.right = new TreeNode(3);
-        System.out.println(SymmetricTree.isSymmetric(root));
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.right = new TreeNode(2);
+//        root.left.left = new TreeNode(3);
+//        root.left.right = new TreeNode(4);
+//        root.right.left = new TreeNode(4);
+//        root.right.right = new TreeNode(3);
+//        System.out.println(SymmetricTree.isSymmetric(root));
+
+
     }
 
     private static String stringifyArray(int[] arr){
