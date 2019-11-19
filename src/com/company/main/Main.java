@@ -1,5 +1,6 @@
 package com.company.main;
 
+import com.company.leetcode.GenerateParentheses;
 import com.company.leetcode.model.ListNode;
 
 import java.util.ArrayList;
@@ -84,6 +85,8 @@ public class Main {
 //        root.right.right = new TreeNode(3);
 //        System.out.println(SymmetricTree.isSymmetric(root));
 
+//        SpiralMatrix.generateMatrix(3);
+        GenerateParentheses.generateParenthesis(3);
 
     }
 
